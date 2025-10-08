@@ -101,6 +101,26 @@ Download and install from https://ollama.ai/download
 ### Pull Llama2 Model
 ollama pull llama2
 
+----
+### Clone & Install
+git clone https://github.com/yourusername/talentscout-ai-hiring-assistant.git
+cd talentscout-ai-hiring-assistant
+pip install -r requirements.txt
+
+---
+
+## Run Application
+
+### Terminal 1 – Start Ollama:
+ollama serve
+
+---
+### Terminal 2 – Start Streamlit:
+streamlit run app.py
+
+
+
+
 
 
 
