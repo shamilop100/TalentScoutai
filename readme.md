@@ -31,13 +31,15 @@ Understands natural language, maintains context, handles off-topic queries, and 
 
 ### 4. User Experience
 Includes progress tracking, categorized tech stack view, JSON export, responsive design, and a modern Streamlit UI.
-## 🧠 Capabilities
+----
+## 🚀 Installation
+### Prerequisites
 
-- **Conversational Interaction**: Natural, human-like dialogue using LLM prompts  
-- **Personalized Questioning**: Generates questions tailored to each candidate’s tech stack  
-- **Validation & Correction**: Detects invalid inputs (e.g., wrong email formats)  
-- **Fallback Handling**: Works even when LLM is unavailable (rule-based fallback)  
-- **Graceful Exit**: Supports early exit and resumes conversation naturally  
+Python 3.8 or higher
+Ollama (for running Llama2 locally)
+Operating System: Windows, macOS, or Linux
+
+ 
 
 ---
 
@@ -52,6 +54,7 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install ollama
+
 
 
 
