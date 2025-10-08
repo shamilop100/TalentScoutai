@@ -20,16 +20,16 @@ This project demonstrates how **LLMs can enhance recruitment workflows** by prov
 ---
 ##✨ Key Features
 
-# 1. Information Collection
+### 1. Information Collection
 Collects candidate details: Name, Email, Phone, Experience, Position, Location, and Tech Stack (Languages, Frameworks, Databases, Tools).
 
-# 2. AI-Generated Questions
+### 2. AI-Generated Questions
 Generates 5 smart, tech-specific questions with contextual follow-ups based on the candidate’s stack (e.g., Python, Django, React, PostgreSQL).
 
-# 3. Conversational Intelligence
+### 3. Conversational Intelligence
 Understands natural language, maintains context, handles off-topic queries, and requests clarifications when needed.
 
-# 4. User Experience
+### 4. User Experience
 Includes progress tracking, categorized tech stack view, JSON export, responsive design, and a modern Streamlit UI.
 ## 🧠 Capabilities
 
@@ -52,6 +52,7 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install ollama
+
 
 
 
