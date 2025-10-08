@@ -30,8 +30,11 @@ Generates 5 smart, tech-specific questions with contextual follow-ups based on t
 Understands natural language, maintains context, handles off-topic queries, and requests clarifications when needed.
 
 ### 4. User Experience
+
 Includes progress tracking, categorized tech stack view, JSON export, responsive design, and a modern Streamlit UI.
+
 ----
+
 ## 🚀 Installation
 ### Prerequisites
 
@@ -42,6 +45,13 @@ Operating System: Windows, macOS, or Linux
  
 
 ---
+
+## 📖 Usage
+
+1. Start conversation - Greet the bot to begin
+2. Provide information - Answer questions about name, email, experience, and tech stack
+3. Answer technical questions - Bot generates 5 questions based on YOUR tech stack
+4. Export data - Download screening results as JSON
 
 ## ⚙️ Installation Instructions
 
@@ -54,6 +64,7 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install ollama
+
 
 
 
