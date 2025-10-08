@@ -52,6 +52,35 @@ Operating System: Windows, macOS, or Linux
 2. Provide information - Answer questions about name, email, experience, and tech stack
 3. Answer technical questions - Bot generates 5 questions based on YOUR tech stack
 4. Export data - Download screening results as JSON
+   
+---
+
+### 🧠 Technical Stack
+
+| **Component** | **Technology**          |
+|----------------|-------------------------|
+| **LLM**        | Llama2 (7B) via Ollama  |
+| **Backend**    | Python 3.8+             |
+| **Frontend**   | Streamlit               |
+| **Data**       | JSON                    |
+
+---
+
+##🎨 Prompt Design
+The chatbot uses carefully crafted prompts to guide Llama2:
+System Prompt: Defines role as friendly technical recruiter
+Context Injection: Each message includes current state and instructions
+Off-Topic Handling: Answers questions naturally while staying on track
+Question Generation: Generates 5 tech-specific questions using candidate's stack
+
+---
+### 📂 Project Structure
+
+talentscout-ai-hiring-assistant/
+├── app.py # Streamlit UI
+├── chatbot.py # Core chatbot logic with LLM
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
 ## ⚙️ Installation Instructions
 
@@ -64,6 +93,7 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install ollama
+
 
 
 
