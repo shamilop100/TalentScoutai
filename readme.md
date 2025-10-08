@@ -88,29 +88,14 @@ talentscout-ai-hiring-assistant/
 ### requirements.txt:
  streamlit==1.28.0
  ollama==0.1.6
+
 ---
+
 ### 🚀 Installation & Setup
 
 #### 1. Install Ollama
-**macOS / Linux:**
-```bash
-curl https://ollama.ai/install.sh | sh
-
-
-## ⚙️ Installation Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/talentscout-chatbot.git
-cd talentscout-chatbot
-
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-pip install ollama
-
-
-
+*Windows:
+Download and install from https://ollama.ai/download
 
 
 
