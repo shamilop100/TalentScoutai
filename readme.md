@@ -98,6 +98,13 @@ talentscout-ai-hiring-assistant/
 Download and install from https://ollama.ai/download
 
 
+### Pull Llama2 Model
+ollama pull llama2
+
+
+
+
+
 
 
 
