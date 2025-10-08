@@ -77,10 +77,17 @@ Question Generation: Generates 5 tech-specific questions using candidate's stack
 ### 📂 Project Structure
 
 talentscout-ai-hiring-assistant/
-├── app.py # Streamlit UI
-├── chatbot.py # Core chatbot logic with LLM
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+├── app.py               # Streamlit UI
+├── chatbot.py           # Core chatbot logic with LLM
+├── requirements.txt     # Dependencies
+└── README.md            # Project documentation
+
+
+---
+
+### requirements.txt:
+ streamlit==1.28.0
+ ollama==0.1.6
 
 ## ⚙️ Installation Instructions
 
@@ -93,6 +100,7 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install ollama
+
 
 
 
